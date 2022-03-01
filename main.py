@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 import requests
-from io import BytesIO
 from zipfile import ZipFile
 import json
 from pydantic import BaseModel
